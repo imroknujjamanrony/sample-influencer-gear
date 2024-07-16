@@ -1,0 +1,131 @@
+*{
+  margin:0px;
+  padding: 10px 10px;
+  background: white;
+}
+
+/* banner style */
+
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-title{
+  width: 243px;
+  height: 52.2px;
+  color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+padding-left: 30px;
+padding-top: 30px;
+}
+.icon-bar{
+ display: flex;
+ gap: 10px;
+
+
+ 
+}
+
+.icon-bar button{
+background: transparent;
+border: none;
+color: rgb(58, 58, 58);
+font-family: Poppins;
+
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+margin-bottom: 10px;
+}
+/*  End of banner style */
+
+/* banner box style start */
+
+.banner-container-2{
+  gap: 138px;
+}
+
+
+.banner-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.banner-title-2{
+  width: 582px;
+height: 133px;
+
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.banner-description-2{
+  width: 505px;
+height: 60.9px;
+
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.btn-1{
+  width: 156px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: none;
+  order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+border-radius: 41px;
+text-align: center;
+
+background: rgb(224, 44, 109);
+}
+
+/* logo div */
+
+.logo-div{
+  
+display: flex;
+text-align: center;
+gap:70px ;
+
+}
+/* logo div end here */
+
+/* star div */
+.star-box{
+  width:220px;
+ 
+}
+
+.checked{
+  display: inline-flex;
+  color: orange;
+  padding: 0px;
+}
